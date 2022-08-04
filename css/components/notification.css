@@ -1,0 +1,63 @@
+.notification {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(235,235,235);
+}
+
+.notification .notification-content {
+  flex-grow: 1;
+  padding: 0 24px;
+}
+.notification .notification-content a {
+  text-decoration: none;
+  color: #268BD2;
+}
+
+.notification .notification-action {
+  display: flex;
+  transition: ease .3s;
+}
+.notification .notification-action a {
+  color: #999999;
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+.notification .notification-action a:hover {
+  color: #121212;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: Font Awesome\ 5 Free;
+}
+.fa-check:before {
+  content: "\f00c";
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.notification p {
+  margin: 0;
+  line-height: 1.4;
+}
